@@ -1,0 +1,4 @@
+[workers]
+worker1 ansible_host=18.219.8.98 ansible_user=ec2-user ansible_ssh_private_key_file=/home/ec2-user/Final_Use_Case_Project/my-keys/my_keypair.pem
+worker2 ansible_host=3.16.149.67 ansible_user=ec2-user ansible_ssh_private_key_file=/home/ec2-user/Final_Use_Case_Project/my-keys/my_keypair.pem
+worker3 ansible_host=18.191.253.143 ansible_user=ec2-user ansible_ssh_private_key_file=/home/ec2-user/Final_Use_Case_Project/my-keys/my_keypair.pem

@@ -1,0 +1,9 @@
+- name: Install specific Nginx version on individual workers
+  hosts: all  # Target all hosts in the inventory
+  become: yes # Use sudo on worker nodes
+ 
+  tasks:
+    - name: Ensure Java is installed with specific version
+      ansible.builtin.yum:
+        name: "java-21"
+        state: present
